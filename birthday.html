@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff7f1" />
+  <title>For Zareef Abtahee | Make a Wish</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <main>
+    <section class="wish-section" id="wish" aria-labelledby="wish-title">
+      <div class="wish-layout">
+        <div class="section-intro">
+          <p class="small-label">A candle for every beautiful year</p>
+          <h2 id="wish-title">Close your eyes.<br /><em>Think of a wish.</em></h2>
+          <p class="instruction candle-instruction-highlight" id="candle-instruction"><span class="instruction-icon">✦</span> CLICK EACH CANDLE TO MAKE A WISH <span class="instruction-icon">✦</span></p>
+          <div class="wish-progress" aria-label="Candles remaining"><span id="progress-fill"></span></div>
+          <p class="progress-text"><span id="candles-left">5</span> candles still glowing</p>
+        </div>
+        <div class="cake-stage" id="cake-stage">
+          <div class="cake-glow"></div>
+          <div class="cake" aria-label="Birthday cake with five lit candles">
+            <div class="candles" id="candles">
+              <button class="candle" aria-label="Blow out candle 1"><span class="flame"></span><span class="wick"></span><span class="candle-body"></span></button>
+              <button class="candle" aria-label="Blow out candle 2"><span class="flame"></span><span class="wick"></span><span class="candle-body"></span></button>
+              <button class="candle" aria-label="Blow out candle 3"><span class="flame"></span><span class="wick"></span><span class="candle-body"></span></button>
+              <button class="candle" aria-label="Blow out candle 4"><span class="flame"></span><span class="wick"></span><span class="candle-body"></span></button>
+              <button class="candle" aria-label="Blow out candle 5"><span class="flame"></span><span class="wick"></span><span class="candle-body"></span></button>
+            </div>
+            <div class="frosting frosting-top"></div><div class="cake-top"></div>
+            <div class="cake-body"><span></span><span></span><span></span><span></span></div><div class="cake-base"></div>
+          </div>
+          <p class="cake-note">with extra sweetness, always</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer"><span>Made with love, for Zareef</span><span>always & forever ♡</span></footer>
+  </main>
+  <div class="confetti-container" id="confetti-container" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff7f1" />
+  <title>Letters For You | Zareef</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="letters-page">
+  <div class="page-noise" aria-hidden="true"></div>
+  <main class="letters-shell">
+    <header class="letters-header">
+      <div class="letters-sparkles" aria-hidden="true">✦ ✧ ✦</div>
+      <h1>Your Little<br /><em>Birthday Wonderland</em></h1>
+      <p>Five little envelopes, each holding a reminder<br class="desktop-break" /> of how much you mean to me.</p>
+    </header>
+    <section class="envelope-grid" aria-label="Open when letters">
+      <button class="envelope-card envelope-coral" data-letter="missing"><span class="envelope-number">01</span><span class="envelope-flap">♡</span><span class="envelope-label">Open when<br /><em>you're missing me</em></span><span class="envelope-action">open letter ↗</span></button>
+      <button class="envelope-card envelope-cream" data-letter="sad"><span class="envelope-number">02</span><span class="envelope-flap">☁</span><span class="envelope-label">Open when<br /><em>you're sad</em></span><span class="envelope-action">open letter ↗</span></button>
+      <button class="envelope-card envelope-blue" data-letter="motivation"><span class="envelope-number">03</span><span class="envelope-flap">✦</span><span class="envelope-label">Open when<br /><em>you need motivation</em></span><span class="envelope-action">open letter ↗</span></button>
+      <button class="envelope-card envelope-yellow" data-letter="smile"><span class="envelope-number">04</span><span class="envelope-flap">☻</span><span class="envelope-label">Open when<br /><em>you want to smile</em></span><span class="envelope-action">open letter ↗</span></button>
+      <button class="envelope-card envelope-pink" data-letter="birthday"><span class="envelope-number">05</span><span class="envelope-flap">✉</span><span class="envelope-label">Special one<br /><em>for your birthday</em></span><span class="envelope-action">open letter ↗</span></button>
+    </section>
+    <a class="letters-photo-button" href="childhood.html">CLICK HERE QUICK <span>→</span></a>
+  </main>
+  <div class="letter-modal" id="letter-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="open-letter"><button class="close-modal" data-close-modal aria-label="Close letter">×</button><span class="modal-postmark">A LITTLE NOTE FOR YOU · 2026</span><p class="modal-label" id="modal-label">open when...</p><h2 id="modal-title">For when you're missing me</h2><div class="letter-rule"></div><p id="modal-message"></p><p class="letter-signoff">Yours,<br /><em>Sharika ♡</em></p><span class="modal-stamp">♡</span></article>
+  </div>
+  <script src="letters.js"></script>
+</body>
+</html>
