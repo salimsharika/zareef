@@ -38,8 +38,6 @@ To everyone, HAPPINESS may consist of 9 words, but to me, it’s simply 6. ❤�
 
 HATE YOUUUUUUUUUU, HEHEHEHHE!
 
-yours.
-Sharika`
   }
 };
 
