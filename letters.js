@@ -24,15 +24,22 @@ const letters = {
     title: 'Today is all about you',
     message: `Happy birthday to the boy who makes my world warmer, funnier, and so much more beautiful. ❤️
 
-I hope this year brings you every good thing you deserve. Thank you for simply being you. I never thought you would become such an important person in my life, and that too, so quickly. 🥹
+The last 5 months haven’t been very easy for me, but somehow, talking to you always makes everything feel a little better. I genuinely feel so happy whenever I talk to you. You’ve become such a special part of my life, and I’m so grateful for that.
 
-I really wish you were here so we could celebrate your birthday together in real life. In Sha Allah, one day we will. Until then, I guess we’ll have to make our virtual celebration count. 🫶🏻
+You are one of the best things that happened to me in 2026. 🥹 I never thought you would become such an important person in my life, and that too, so quickly.
 
-Also BIG thanks to aunty who brought you in this world and I got you <3
+I hope this year of your life brings you all the happiness, peace, success, and beautiful things you truly deserve. Thank you for simply being you. ❤️
 
-I hate you hehe. ❤️
+I really wish you were here so we could celebrate your birthday together in real life. In Sha Allah, one day we will. Until then, I guess we’ll have to make our little virtual celebration count. 🫶🏻
 
-Special one for you ♡`
+And a BIG thank you to Aunty for bringing you into this world… because otherwise, how would I have gotten you? <3 🥹❤️
+
+To everyone, HAPPINESS may consist of 9 words, but to me, it’s simply 6. ❤️
+
+HATE YOUUUUUUUUUU, HEHEHEHHE!
+
+yours.
+Sharika`
   }
 };
 
