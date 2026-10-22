@@ -36,7 +36,14 @@ And a BIG thank you to Aunty for bringing you into this world… because otherwi
 
 To everyone, HAPPINESS may consist of 9 words, but to me, it’s simply 6. ❤️
 
+HATE YOUUUUUUUUUU, HEHEHEHHE!
+
 `
+  },
+  hurt: {
+    label: 'today you hurt me the most',
+    title: 'Today you hurt me the most',
+    message: 'ajk 22 oct,2026 ami jani tmi hoyto ei text ta konodin o porba na but ajk tmi amk sobcheye beshi hurt korso, amk bhitor theke bhenge diso ekebarei, tmi jano ami chai ami tmr life theke haray gele konodin jeno tmi amr moto kauke na pao amr feel hoy tmi amk taken for granted niye niso j joto opoman kori thekei to jay. ekta meyer sathe tmi amk tulona kore bolso tmr ammu r o amr theke negative vibe ase hoyto tmi bujho o na tmr kichu kotha amk koto hurt kore. Amk chara ki tumi asolei eto bhalo thakba, j sobkisu tei amk chere dewar jonno ready thako? ami ki tmr life e ektu o matter korina?'
   }
 };
 
