@@ -51,16 +51,18 @@ const modal = document.querySelector('#letter-modal');
 const modalLabel = document.querySelector('#modal-label');
 const modalTitle = document.querySelector('#modal-title');
 const modalMessage = document.querySelector('#modal-message');
+const closeButton = document.querySelector('.close-modal');
 
 function openLetter(key) {
   const letter = letters[key];
+  if (!letter || !modal || !modalLabel || !modalTitle || !modalMessage) return;
   modalLabel.textContent = letter.label;
   modalTitle.textContent = letter.title;
   modalMessage.textContent = letter.message;
   modal.classList.add('open');
   modal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
-  document.querySelector('.close-modal').focus();
+  closeButton.focus();
 }
 
 function closeLetter() {
